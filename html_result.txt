@@ -1,0 +1,2540 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="pointer skrollr skrollr-desktop flexbox flexboxlegacy no-flexboxtweener objectfit object-fit"><head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style id="customRules"></style><script async="" src="//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js"></script><script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        HomeUrl: 'https://www.asancheztfh.com/',
+        AccountUUID: 'c3985af03f2349fd829808006d13334a',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: 'f92bae43',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Wed Jul 05 21:31:41 UTC 2023',
+        ExternalUid: 'MzQxMjM4Ok1haW5TaXRl',
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'obituary-listing',
+        InitialPageUuid: 'aab25c01393543148fb5aa2e632692b5',
+        InitialPageId: '1079979451',
+        InitialEncodedPageAlias: 'b2JpdHVhcnktbGlzdGluZw==',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '10300',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'null',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        NotificationSubDomain: 'asancheztfh',
+        HasCustomDomain: true,
+        SimpleSite: false,
+        showCookieNotification: false,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        currentLocale: 'en',
+        NavItems: '{}',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'https://www.asancheztfh.com/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: false,
+        planID: '7',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+        hasNativeStore: false,
+        defaultLang: 'en',
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 9;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="https://www.asancheztfh.com/obituary-listing">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="icon" type="image/x-icon" href="https://irp.cdn-website.com/f92bae43/site_favicon_16_1620647575654.ico">
+
+<!-- End favorite icons -->
+<link rel="preconnect" href="https://lirp.cdn-website.com/">
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if (!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function () {
+            },
+            getCurrentDeviceType: function () {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+
+<!-- loadCSS function header.jsp-->
+
+
+
+
+
+
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+            const storedWidgetCssLink = cssLinks.widget;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            if(storedWidgetCssLink) {
+                storedWidgetCssLink.disabled = true;
+                loadCssLink(storedWidgetCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    if (storedWidgetCssLink) {
+                      storedWidgetCssLink.disabled = false;
+                    }
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
+                    // sure that the document has finished loading and the document 
+                    // has been parsed.
+                    if(document.readyState === 'interactive') {
+                      cssLinks = null;
+                    }
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href && link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if (link.id && link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      } else if (link.id && link.id.includes("widgetCSS")) {
+        cssLinks.widget = link;
+        checkCss();
+      }
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def() {
+        this.promise = new Promise((function (a, b) {
+            this.resolve = a, this.reject = b
+        }).bind(this))
+    }
+
+    const defs = {};
+    window.getDeferred = function (a) {
+        return null == defs[a] && (defs[a] = new Def), defs[a]
+    }
+    window.waitForDeferred = function (b, a, c) {
+        let d = window?.getDeferred?.(b);
+        d
+            ? d.promise.then(a)
+            : c && ["complete", "interactive"].includes(document.readyState)
+                ? setTimeout(a, 1)
+                : c
+                    ? document.addEventListener("DOMContentLoaded", a)
+                    : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}#dmRoot div.stickyHeaderFix div.site_content{margin-top:0!important}#dmRoot div.stickyHeaderFix div.hamburger-header-container{position:relative}
+    
+
+</style>
+<style id="cssVariables" type="text/css">
+    
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function fonts.jsp-->
+
+
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Prata:ital,wght@0,400&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=DM+Serif+Text:ital,wght@0,400;1,400&amp;family=Josefin+Sans:ital,wght@0,100..700;1,100..700&amp;family=Oswald:ital,wght@0,200..700;1,200..700&amp;family=DM+Sans:ital,wght@0,100..1000;1,100..1000&amp;family=DM+Serif+Display:ital,wght@0,400;1,400&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;family=Open+Sans:ital,wght@0,300..800;1,300..800&amp;subset=latin-ext&amp;display=swap">
+
+
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="https://static.cdn-website.com/mnlt/production/4801/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css">
+
+<!-- End of RT CSS Include -->
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/WIDGET_CSS/3d3eaf52716f53e740711c0b0999c6b9.css" id="widgetCSS">
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+    height: auto;
+}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>
+    body[data-page-alias="obituary-listing"] #dm [data-show-on-page-only="obituary-listing"] {
+        display: block !important;
+    }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/f92bae43/files/f92bae43_1.min.css?v=14" id="siteGlobalCss">
+
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style id="additionalGlobalCss" type="text/css">
+</style>
+
+<style id="pagestyle" type="text/css">
+    *#dm *.dmBody div.u_1244164153 .service-listing-pages{
+font-family:'DM Serif Text' !important;
+color:rgba(62,91,179,1) !important}
+*#dm *.dmBody div.u_1244164153 .service-listing-empty{
+font-family:'DM Serif Text' !important;
+color:rgba(62,91,179,1) !important}
+*#dm *.dmBody div.u_1244164153 .service-listing-img{
+border-style:solid !important;
+border-width:5px !important;
+border-color:rgba(255,255,255,1) !important}
+*#dm *.dmBody div.u_1244164153 .service-listing-overlay{
+background-color:rgba(0,0,0,0) !important}
+*#dm *.dmBody div.u_1244164153 .service-listing-name{
+font-family:'DM Serif Text' !important;
+color:rgba(62,91,179,1) !important}
+*#dm *.dmBody div.u_1244164153 .service-listing-date{
+color:rgba(0,0,0,0.5) !important}
+*#dm *.dmBody div.u_1244164153 input.SearchTerm{
+background-color:rgba(0,0,0,0.05) !important}
+*#dm *.dmBody div.u_1337234388 *.notification-popup{
+background-color:rgba(242,242,242,1) !important;
+color:rgba(34,34,34,1) !important}
+*#dm *.dmBody div.u_1337234388 *.notification-title{
+color:rgba(34,34,34,1) !important}
+*#dm *.dmBody div.u_1337234388 .ObitEmailAddress{
+background-color:rgba(255,255,255,1) !important}
+*#dm *.dmBody div.u_1892989545 *.service-listing-overlay{
+color:rgba(34,34,34,1) !important}
+*#dm *.dmBody *.u_1892989545 *.service-listing-overlay{
+text-align:LEFT !important}
+*#dm *.dmBody div.u_1892989545 input.SearchTerm{
+background-color:rgba(0,0,0,0.05) !important}
+*#dm *.dmBody div.u_1892989545 .service-listing-name{
+font-family:'DM Serif Text' !important;
+color:rgba(62,91,179,1) !important}
+*#dm *.dmBody div.u_1892989545 .service-listing-date{
+color:rgba(0,0,0,0.5) !important}
+*#dm *.dmBody div.u_1892989545 .service-listing-img{
+border-style:solid !important;
+border-width:5px !important;
+border-color:rgba(255,255,255,1) !important}
+*#dm *.dmBody div.u_1892989545 .service-listing-pages{
+color:rgba(62,91,179,1) !important;
+font-family:'DM Serif Text' !important}
+*#dm *.dmBody div.u_1892989545 .service-listing-empty{
+color:rgba(62,91,179,1) !important;
+font-family:'DM Serif Text' !important}
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    *#dm *.dmBody div.u_1842591561{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:left !important}
+*#dm *.dmBody div.u_1244164153 *.service-listing-inner{
+width:95% !important}
+*#dm *.dmBody div.u_1244164153 *.service-listing-inner{
+width:95% !important}
+*#dm *.dmBody div.u_1337234388 .notification-popup{
+font-size:14px !important}
+*#dm *.dmBody div.u_1337234388 .notification-title{
+font-size:14px !important}
+*#dm *.dmBody div.u_1337234388 .notification-popup{
+font-size:14px !important}
+*#dm *.dmBody div.u_1337234388 .notification-title{
+font-size:14px !important}
+*#dm *.dmBody div.u_1337234388{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:296px !important;
+position:relative !important;
+height:42px !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:center !important;
+display:block !important;
+margin-right:auto !important;
+margin-left:auto !important;
+margin-top:10px !important;
+margin-bottom:0 !important}
+*#dm *.dmBody div.u_1337234388{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:296px !important;
+position:relative !important;
+height:42px !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:center !important;
+display:block !important;
+margin-right:auto !important;
+margin-left:auto !important;
+margin-top:10px !important;
+margin-bottom:0 !important}
+*#dm *.dmBody div.u_1244164153{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:calc(100% - 0px) !important;
+position:relative !important;
+height:939px !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:center !important;
+margin-right:auto !important;
+margin-left:auto !important;
+margin-top:10px !important;
+margin-bottom:0 !important}
+*#dm *.dmBody div.u_1244164153{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:calc(100% - 0px) !important;
+position:relative !important;
+height:939px !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:center !important;
+margin-right:auto !important;
+margin-left:auto !important;
+margin-top:10px !important;
+margin-bottom:0 !important}
+*#dm *.dmBody div.u_1892989545 *.service-listing-inner{
+width:97% !important}
+*#dm *.dmBody div.u_1892989545{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:1031px !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:calc(100% - 0px) !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:center !important}
+*#dm *.dmBody div.u_1892989545 *.service-listing-inner{
+width:97% !important}
+*#dm *.dmBody div.u_1892989545{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:1031px !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:calc(100% - 0px) !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:center !important}
+</style>
+
+<!-- Flex Sections CSS -->
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">
+    .font-size-12, .size-12, .size-12 > font { font-size: 12px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">
+    .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+        visibility: hidden;
+    }
+
+    .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+        visibility: hidden !important;
+    }
+</style>
+
+
+
+
+<style id="fontFallbacks">
+    @font-face {
+  font-family: "Prata Fallback";
+  src: local('Arial');
+  ascent-override: 92.0833%;
+  descent-override: 33.5691%;
+  size-adjust: 107.8372%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Roboto Fallback";
+  src: local('Arial');
+  ascent-override: 92.6709%;
+  descent-override: 24.3871%;
+  size-adjust: 100.1106%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "DM Serif Text Fallback";
+  src: local('Arial');
+  ascent-override: 103.6954%;
+  descent-override: 33.5309%;
+  size-adjust: 99.908%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Josefin Sans Fallback";
+  src: local('Arial');
+  ascent-override: 72.9195%;
+  descent-override: 24.3065%;
+  size-adjust: 102.8531%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Oswald Fallback";
+  src: local('Arial');
+  ascent-override: 145.0682%;
+  descent-override: 35.1423%;
+  size-adjust: 82.2372%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "DM Sans Fallback";
+  src: local('Arial');
+  ascent-override: 94.3696%;
+  descent-override: 29.4905%;
+  size-adjust: 105.1186%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "DM Serif Display Fallback";
+  src: local('Arial');
+  ascent-override: 103.2273%;
+  descent-override: 33.3795%;
+  size-adjust: 100.3611%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Open Sans Fallback";
+  src: local('Arial');
+  ascent-override: 101.1768%;
+  descent-override: 27.7323%;
+  size-adjust: 105.6416%;
+  line-gap-override: 0%;
+ }
+</style>
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+<meta property="og:type" content="website">
+
+  <meta property="og:image" content="http://static1.frontrunnerpro.com/images/og/OGImage82.jpg">
+  <title>
+    Obituary Listing
+  </title>
+  <meta name="keywords" content="obituaries, death notices, recent deaths">
+  <meta name="description" content="Leave a message of condolence while browsing through  obituaries and death notices for current and past services being held at our funeral home.">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Obituary Listing">
+  <meta name="twitter:description" content="Leave a message of condolence while browsing through  obituaries and death notices for current and past services being held at our funeral home.">
+  <meta property="og:description" content="Leave a message of condolence while browsing through  obituaries and death notices for current and past services being held at our funeral home.">
+  <meta property="og:title" content="Obituary Listing">
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+<script src="https://static.cdn-website.com/libs/bower-skrollr/skrollr.min.js"></script></head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="obituary-listing" class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite dmLargeBody pcCustomScrollbar d1SiteBody dmBodyNoIscroll" style="padding:0;margin:0;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class="dmwr">
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1345645770"> <div dmtemplateid="skinnyHeaderLayout" class="skinnyHeaderLayout dm-bfs dm-layout-sec hasStickyHeader hasAnimations dmPageBody d-page-1495495011 dmFreeHeader runtime-module-container" id="dm-outer-wrapper" data-page-class="1495495011" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true" headerlayout="134" layout="7f3c1de367df47d5b45ab63d33101c7b===header" has-shadow="true"> <div dm:templateorder="76" class="dmHeaderResp noSwitch" id="1261229135"> <div class="dmRespRow fullBleedChanged fullBleedMode u_1610589636" id="1610589636"> <div class="dmRespColsWrapper" id="1923985771"> <div class="u_1488286501 dmRespCol small-12 large-4 medium-4 vertical-bottom" id="1488286501"> <div class="u_1794035801 dmNewParagraph" data-element-type="paragraph" data-version="4" id="1794035801" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-center m-size-8 size-12"><span class="m-font-size-8 font-size-12" style="color: rgb(255, 255, 255); display: unset;">Avalos-Sanchez &amp; Thomas Funeral Home</span></p><p class="text-align-center m-size-8 size-12"><span class="m-font-size-8 font-size-12" style="color: rgb(255, 255, 255); display: unset;"><span class="m-font-size-8 font-size-12" style="color: rgb(255, 255, 255); display: unset;">1502 North Lamesa Road</span> 
+</span><span class="m-font-size-8 font-size-12" style="color: rgb(242, 222, 170); display: unset;">|</span><span class="m-font-size-8 font-size-12" style="color: rgb(255, 255, 255); display: unset;"> <span class="m-font-size-8 font-size-12" style="color: rgb(255, 255, 255); display: unset;">Midland, TX 79701</span></span></p></div> 
+</div> 
+ <div class="u_1227261318 dmRespCol small-12 large-4 medium-4 vertical-center" id="1227261318"> <div class="u_1780167034 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1780167034" data-anim-desktop="none" editablewidget="true" style="visibility: visible !important;"> <a id="1672478184" href="/" file="false"><img src="https://lirp.cdn-website.com/f92bae43/dms3rep/multi/opt/avalosSanchezThomas-logoConcepts-10aug2020-stylized-reversed-1920w.png" id="1256095955" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/f92bae43/dms3rep/multi/avalosSanchezThomas-logoConcepts-10aug2020-stylized-reversed.png" data-hover-effect="opacity" alt="Avalos-Sanchez &amp; Thomas Funeral Home" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+ <div class="u_1108183154 dmRespCol small-12 large-4 medium-4 vertical-bottom" id="1108183154"> <div class="u_1086554641 header-location dmNewParagraph" data-element-type="paragraph" data-version="5" id="1086554641" style="transition: opacity 1s ease-in-out 0s; text-align: left;"><p class="text-align-center m-size-8 size-12"><a href="http://www.stantonfh.com/" type="url" class="font-size-12 m-font-size-8" style="color: rgb(255, 255, 255); display: initial;" runtime_url="http://www.stantonfh.com/" target="_blank">Click to visit Stanton Memorial Funeral Home and Chapel<br>408 N Saint Peter Street | Stan</a><a href="http://www.stantonfh.com/" type="url" class="font-size-12 m-font-size-8" style="color: rgb(255, 255, 255); display: unset;" runtime_url="http://www.stantonfh.com/" target="_blank">ton, TX 79782</a></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1966438897 fullBleedChanged fullBleedMode" id="1966438897"> <div class="dmRespColsWrapper" id="1306633638"> <div class="dmRespCol large-12 medium-12 small-12" id="1102802710"> <nav class="u_1556096798 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1556096798" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="HORIZONTAL" data-anim-desktop="none" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav" style="visibility: visible !important;"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item dmUDNavigationItem_00" target="" data-target-page-alias="" tabindex="0"> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item dmUDNavigationItem_010101167742 unifiednav__item_has-sub-nav" target="" data-target-page-alias="" tabindex="0"> <span class="nav-item-text " data-link-text="
+         About
+        " data-auto="page-text-style">About<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="/our-story" class="unifiednav__item dmUDNavigationItem_010101650955" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           Our Story
+          " data-auto="page-text-style">Our Story<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="/contact-us" class="unifiednav__item dmUDNavigationItem_010101136788" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           Contact Us
+          " data-auto="page-text-style">Contact Us<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item dmUDNavigationItem_010101994652 unifiednav__item_has-sub-nav dmNavItemSelected" target="" data-target-page-alias="" tabindex="0"> <span class="nav-item-text " data-link-text="
+         Obituaries
+        " data-auto="page-text-style">Obituaries<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="/obituary-listing" class="unifiednav__item dmUDNavigationItem_010101846440 dmNavItemSelected" target="" data-target-page-alias="" data-auto="selected-page" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           Obituary Listing
+          " data-auto="page-text-style">Obituary Listing<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="/veteran-memorial-wall" class="unifiednav__item dmUDNavigationItem_010101591152" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           Veteran Memorial Wall
+          " data-auto="page-text-style">Veteran Memorial Wall<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="/online-memorials" class="unifiednav__item dmUDNavigationItem_01010148862" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           Learn About Online Memorials
+          " data-auto="page-text-style">Learn About Online Memorials<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item dmUDNavigationItem_010101824822 unifiednav__item_has-sub-nav" target="" data-target-page-alias="" tabindex="0"> <span class="nav-item-text " data-link-text="
+         Services
+        " data-auto="page-text-style">Services<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="#" class="unifiednav__item dmUDNavigationItem_010101446255 unifiednav__item_has-sub-nav" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           Funeral Services
+          " data-auto="page-text-style">Funeral Services<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="1" data-auto="sub-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/what-is-a-funeral" class="unifiednav__item dmUDNavigationItem_010101210655" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             What is a Funeral?
+            " data-auto="page-text-style">What is a Funeral?<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/traditional-funeral-services" class="unifiednav__item dmUDNavigationItem_010101296402" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Traditional Funeral Services
+            " data-auto="page-text-style">Traditional Funeral Services<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/burial-services" class="unifiednav__item dmUDNavigationItem_010101632567" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Burial Services
+            " data-auto="page-text-style">Burial Services<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/funeral-faq" class="unifiednav__item dmUDNavigationItem_010101546864" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Funeral FAQ
+            " data-auto="page-text-style">Funeral FAQ<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="#" class="unifiednav__item dmUDNavigationItem_010101771129 unifiednav__item_has-sub-nav" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           Cremation Services
+          " data-auto="page-text-style">Cremation Services<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="1" data-auto="sub-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/cremation-information" class="unifiednav__item dmUDNavigationItem_010101141226" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Cremation Information
+            " data-auto="page-text-style">Cremation Information<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/the-cremation-process" class="unifiednav__item dmUDNavigationItem_01010182579" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             The Cremation Process
+            " data-auto="page-text-style">The Cremation Process<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/cremation-options" class="unifiednav__item dmUDNavigationItem_010101932310" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Cremation Options
+            " data-auto="page-text-style">Cremation Options<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/alternative-options" class="unifiednav__item dmUDNavigationItem_010101373853" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Alternative Options
+            " data-auto="page-text-style">Alternative Options<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/cremation-faq" class="unifiednav__item dmUDNavigationItem_010101519560" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Cremation FAQ
+            " data-auto="page-text-style">Cremation FAQ<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="#" class="unifiednav__item dmUDNavigationItem_010101962049 unifiednav__item_has-sub-nav" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           Memorial Services
+          " data-auto="page-text-style">Memorial Services<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="1" data-auto="sub-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/memorial-service-information" class="unifiednav__item dmUDNavigationItem_010101413288" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Memorial Service Information
+            " data-auto="page-text-style">Memorial Service Information<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/celebration-of-life" class="unifiednav__item dmUDNavigationItem_010101530584" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Celebration of Life
+            " data-auto="page-text-style">Celebration of Life<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/funerals-vs-celebration-of-life" class="unifiednav__item dmUDNavigationItem_010101981220" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Funeral vs. Celebration of Life
+            " data-auto="page-text-style">Funeral vs. Celebration of Life<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/memorial-faq" class="unifiednav__item dmUDNavigationItem_010101505412" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Memorial FAQ
+            " data-auto="page-text-style">Memorial FAQ<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="#" class="unifiednav__item dmUDNavigationItem_010101392896 unifiednav__item_has-sub-nav" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           Specialty Funeral Services
+          " data-auto="page-text-style">Specialty Funeral Services<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="1" data-auto="sub-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/veteran-funeral-services" class="unifiednav__item dmUDNavigationItem_010101729009" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Veteran Funeral Services
+            " data-auto="page-text-style">Veteran Funeral Services<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/ash-scattering-services" class="unifiednav__item dmUDNavigationItem_010101495536" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Ash Scattering Services
+            " data-auto="page-text-style">Ash Scattering Services<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item dmUDNavigationItem_010101940239 unifiednav__item_has-sub-nav" target="" data-target-page-alias="" tabindex="0"> <span class="nav-item-text " data-link-text="
+         Funeral Planning
+        " data-auto="page-text-style">Funeral Planning<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="#" class="unifiednav__item dmUDNavigationItem_010101679428 unifiednav__item_has-sub-nav" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           Pre-Planning
+          " data-auto="page-text-style">Pre-Planning<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="1" data-auto="sub-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/pre-arrangement-process" class="unifiednav__item dmUDNavigationItem_010101742524" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Pre-Arrangement Process
+            " data-auto="page-text-style">Pre-Arrangement Process<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/record-your-wishes" class="unifiednav__item dmUDNavigationItem_010101684524" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Record Your Wishes
+            " data-auto="page-text-style">Record Your Wishes<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/pre-arrange-online" class="unifiednav__item dmUDNavigationItem_010101369670" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Pre-Arrange Online
+            " data-auto="page-text-style">Pre-Arrange Online<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="#" class="unifiednav__item dmUDNavigationItem_010101576425 unifiednav__item_has-sub-nav" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           How to Plan a Funeral
+          " data-auto="page-text-style">How to Plan a Funeral<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="1" data-auto="sub-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/preparing-for-a-funeral-service" class="unifiednav__item dmUDNavigationItem_01010135456" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Preparing for a Funeral Service
+            " data-auto="page-text-style">Preparing for a Funeral Service<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/planning-a-celebration-of-life" class="unifiednav__item dmUDNavigationItem_010101544013" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Planning a Celebration of Life
+            " data-auto="page-text-style">Planning a Celebration of Life<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/planning-a-cremation-service" class="unifiednav__item dmUDNavigationItem_010101159557" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Planning a Cremation Service
+            " data-auto="page-text-style">Planning a Cremation Service<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/funeral-service-trends" class="unifiednav__item dmUDNavigationItem_010101581372" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Funeral Service Trends
+            " data-auto="page-text-style">Funeral Service Trends<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item dmUDNavigationItem_010101378915 unifiednav__item_has-sub-nav" target="" data-target-page-alias="" tabindex="0"> <span class="nav-item-text " data-link-text="
+         Grief &amp; Guidance
+        " data-auto="page-text-style">Grief &amp; Guidance<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="#" class="unifiednav__item dmUDNavigationItem_010101161881 unifiednav__item_has-sub-nav" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           Grief
+          " data-auto="page-text-style">Grief<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="1" data-auto="sub-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/grief-support" class="unifiednav__item dmUDNavigationItem_01010167542" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Grief Support
+            " data-auto="page-text-style">Grief Support<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/dealing-with-death" class="unifiednav__item dmUDNavigationItem_010101270160" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Dealing with Death
+            " data-auto="page-text-style">Dealing with Death<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/dealing-with-grief" class="unifiednav__item dmUDNavigationItem_010101793842" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Dealing with Grief
+            " data-auto="page-text-style">Dealing with Grief<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/when-grief-doesnt-ease" class="unifiednav__item dmUDNavigationItem_010101669269" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             When Grief Doesn't Ease
+            " data-auto="page-text-style">When Grief Doesn't Ease<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/when-grief-is-unacknowledged" class="unifiednav__item dmUDNavigationItem_010101529990" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             When Grief is Unacknowledged
+            " data-auto="page-text-style">When Grief is Unacknowledged<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/for-friends-of-the-bereaved" class="unifiednav__item dmUDNavigationItem_010101885525" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             For Friends of the Bereaved
+            " data-auto="page-text-style">For Friends of the Bereaved<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1"> <a href="#" class="unifiednav__item dmUDNavigationItem_010101447697 unifiednav__item_has-sub-nav" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+           Guidance
+          " data-auto="page-text-style">Guidance<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="1" data-auto="sub-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/what-to-expect" class="unifiednav__item dmUDNavigationItem_0101014686" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             What to Expect
+            " data-auto="page-text-style">What to Expect<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/funeral-etiquette" class="unifiednav__item dmUDNavigationItem_010101449498" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Funeral Etiquette
+            " data-auto="page-text-style">Funeral Etiquette<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/legal-and-estate-guidance" class="unifiednav__item dmUDNavigationItem_010101424662" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Legal &amp; Estate Guidance
+            " data-auto="page-text-style">Legal &amp; Estate Guidance<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/eulogies-and-obituaries" class="unifiednav__item dmUDNavigationItem_010101379651" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             Eulogies &amp; Obituaries
+            " data-auto="page-text-style">Eulogies &amp; Obituaries<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2"> <a href="/faq" class="unifiednav__item dmUDNavigationItem_010101590686" target="" data-target-page-alias="" tabindex="-1"> <span class="nav-item-text " data-link-text="
+             FAQ
+            " data-auto="page-text-style">FAQ<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="/flowers" class="unifiednav__item dmUDNavigationItem_010101951415" target="" data-target-page-alias="" tabindex="0"> <span class="nav-item-text " data-link-text="
+         Send Flowers
+        " data-auto="page-text-style">Send Flowers<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="stickyHeaderSpacer" id="stickyHeaderSpacer" data-new="true"></div> 
+ <div id="desktopBodyBox"> <div id="iscrollBody"> <div id="site_content"> <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow dmInnerBarRow"> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar"> <div class="titleLine display_None"><hr></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"> <div class="innerPageTitle">Obituary Listing</div> 
+</div> 
+ <div class="titleLine display_None"><hr></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="dmFirstContainer" class="dmBody u_dmStyle_template_obituary-listing"> <div id="allWrapper" class="allWrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent"> <div dm:templateorder="1" class="dmDefaultRespTmpl" id="1495495011"> <div class="innerPageTmplBox dmDefaultPage dmRespRowsWrapper dmRespRowsWrapperSize1" id="1113465710"> <div class="dmRespRow" style="text-align: center;" id="1518347069"> <div class="dmRespColsWrapper" id="1260185840"> <div class="dmRespCol small-12 medium-12 large-12" id="1033475910"> <h1 class="dmNewParagraph" data-element-type="paragraph" id="1501374181">Obituary Listing</h1> <div class="u_1842591561 dmNewParagraph" id="1842591561"> <div style="">Obituaries act as quiet reminders of the finite nature of our lives. Yet, for those who have recently experienced the death of a family member or friend, an obituary means so much more. It is a bittersweet reminder of all we've lost, but it can also help us to remember all we enjoyed while they were alive. If you have recently lost someone you love, we hope that you will accept our condolences.</div></div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" style="text-align: center;" id="1861210338"> <div class="dmRespColsWrapper" id="1419482798"> <div class="dmRespCol small-12 medium-12 large-12" id="1322129830"> <span id="1532922577"></span> 
+ <div class="u_1892989545 widget-5e629b hide-for-large hide-for-medium dmCustomWidget standard-mode" data-lazy-load="" data-title="" id="1892989545" dmle_extension="custom_extension" data-element-type="custom_extension" wr="false" icon="false" surround="false" data-widget-id="5e629b2e089e4c4ca53161a12724ae1b" data-widget-version="122" data-widget-config="eyJzZXJ2aWNlSW1nRGltZW5zaW9uT3ZlcnJpZGUiOm51bGwsImhpZGVDdXJyZW50RXZlbnRzIjpudWxsLCJzZXJ2aWNlRGF0ZSI6bnVsbCwidHlwZSI6ImFsbCIsInRpdGxlIjoiIiwiYW5pbWF0ZSI6ImNhc2NhZGUiLCJzZWFyY2hPbmx5IjpmYWxzZSwiaG92ZXIiOiJub25lIiwibGlua1RvIjoiaW5kZXgucGhwIiwic2VydmljZUltZ1NoYWRvdyI6dHJ1ZSwibGlua3MiOltdLCJpbmNsdWRlQWRkaXRpb25hbFNlcnZpY2VzRm9yU2VydmljZURhdGVTb3J0IjpudWxsLCJzZXJ2aWNlU2hhZG93IjpmYWxzZSwiY29scyI6IjEiLCJzZXJ2aWNlTG9jYXRpb24iOm51bGwsInNob3ctcGFnZXMiOnRydWUsInNob3ctc2VhcmNoIjp0cnVlLCJzdGFuYWxvbmVUZXh0IjoiSGF2aW5nIHRyb3VibGUgdmlld2luZyByZWNvcmRzPyBPcGVuIHJlY29yZHMgaW4gbmV3IHRhYi4iLCJhbHRlcm5hdGl2ZVVSTCI6bnVsbCwic29ydCI6ImRvZCIsInNlcnZpY2VOYW1lIjpmYWxzZSwicm93cyI6IjYiLCJ0cGwiOiJiZXNpZGUiLCJzaG93LWFkdmFuY2VkIjpmYWxzZSwiZ3VpZCI6IiIsImdldFNlcnZpY2VUeXBlIjoic2hpdmEiLCJmb3JjZVRvQ3VycmVudCI6bnVsbH0=" data-widget-initialized="" style=""> <div class="mask" style="display: none;"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792" id="1732674747" class="svg u_1732674747" data-icon-name="fa-spinner" style="width: 5rem;"> <path fill="inherit" d="M526 1394q0 53-37.5 90.5t-90.5 37.5q-52 0-90-38t-38-90q0-53 37.5-90.5t90.5-37.5 90.5 37.5 37.5 90.5zM1024 1600q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zM320 896q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zM1522 1394q0 52-38 90t-90 38q-53 0-90.5-37.5t-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zM558 398q0 66-47 113t-113 47-113-47-47-113 47-113 113-47 113 47 47 113zM1728 896q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zM1088 192q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zM1618 398q0 93-66 158.5t-158 65.5q-93 0-158.5-65.5t-65.5-158.5q0-92 65.5-158t158.5-66q92 0 158 66t66 158z" id="1181242651"></path> 
+</svg> 
+</div> 
+ <div class="service-listing-con"> <div class="service-listing-header"> <form class="service-listing-search row"> <div class="col input-col"><input class="SearchTerm" name="SearchTerm" type="text" placeholder="Search Obituaries" data-placeholder-original="Search Obituaries"></div> 
+ <div class="col shrink"> <div class="dmWidget submit search-btn"> <span class="text">Search</span> 
+ <span class="iconBg"></span> 
+</div> 
+</div> 
+</form> 
+</div> 
+ <div class="service-listing-wrapper none beside"> <a class="service-listing tile service-listing-tpl" href="#"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" onerror="handleImageLoadError(this)"></div> 
+ <div class="service-listing-overlay"> <div class="service-listing-name">{name}</div> 
+ <div class="service-listing-date">{date}</div> 
+ <div class="service-listing-branchname">{branchname}</div> 
+</div> 
+</div> 
+</a> 
+ <a class="service-listing modern service-listing-tpl" href="#"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" onerror="handleImageLoadError(this)"></div> 
+ <div class="service-listing-overlay"> <div class="service-listing-overlay-inner"> <div class="service-listing-name">{name}</div> 
+ <div class="service-listing-date">{date}</div> 
+ <div class="service-listing-branchname">{branchname}</div> 
+</div> 
+</div> 
+</div> 
+</a> 
+ <a class="service-listing below service-listing-tpl" href="#"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" onerror="handleImageLoadError(this)"></div> 
+ <div class="service-listing-overlay"> <div class="service-listing-name">{name}</div> 
+ <div class="service-listing-date">{date}</div> 
+ <div class="service-listing-branchname">{branchname}</div> 
+</div> 
+</div> 
+</a> 
+ <a class="service-listing beside service-listing-tpl" href="#"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" onerror="handleImageLoadError(this)"></div> 
+ <div class="service-listing-overlay"> <div class="service-listing-name">{name}</div> 
+ <div class="service-listing-date">{date}</div> 
+ <div class="service-listing-branchname">{branchname}</div> 
+</div> 
+</div> 
+</a> 
+ <a class="service-listing obit service-listing-tpl" href="#"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" onerror="handleImageLoadError(this)"></div> 
+ <div class="service-listing-overlay"> <div class="service-listing-name">{name}</div> 
+ <div class="service-listing-date">{date}</div> 
+ <div class="service-listing-obit">{obit}</div> 
+ <div class="service-listing-branchname">{branchname}</div> 
+</div> 
+</div> 
+</a> 
+<!-- Custom lay out templates--><!--SHIVA--> <a class="service-listing shiva service-listing-tpl" href="#"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" onerror="handleImageLoadError(this)"></div> 
+ <div class="service-listing-overlay"> <div class="service-listing-name"></div> 
+ <div class="service-listing-label service-listing-service">Service:</div> 
+ <div class="service-listing-service-location"></div> 
+ <div class="service-listing-service-date service-listing-service-datetime"></div> 
+ <div class="service-listing-label service-listing-shiva">Shiva:</div> 
+ <div class="service-listing-shiva-address"></div> 
+</div> 
+</div> 
+</a> 
+<div class="row"><div class="col"><a class="service-listing beside" href="https://memorials.asancheztfh.com/bonnie-ackerman/5493839/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/site_storage/light_a_candle/flowers/converted/center-100x100-ST_Wildflowers.png" onerror="handleImageLoadError(this)" alt="Bonnie Ackerman"></div> 
+ <div class="service-listing-overlay"> <div class="service-listing-name">Bonnie Ackerman</div> 
+ <div class="service-listing-date">September 30, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div></div><div class="row"><div class="col"><a class="service-listing beside" href="https://memorials.asancheztfh.com/donald-green/5487293/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/site_storage/light_a_candle/flowers/converted/center-100x100-ST_WheatField.png" onerror="handleImageLoadError(this)" alt="Donald Green"></div> 
+ <div class="service-listing-overlay"> <div class="service-listing-name">Donald Green</div> 
+ <div class="service-listing-date">September 10, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div></div><div class="row"><div class="col"><a class="service-listing beside" href="https://memorials.asancheztfh.com/jimmy-primera/5482933/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/dd993959e9aba85d997bd08c5b576632.jpg" onerror="handleImageLoadError(this)" alt="Jimmy Primera"></div> 
+ <div class="service-listing-overlay"> <div class="service-listing-name">Jimmy Primera</div> 
+ <div class="service-listing-date">September  5, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div></div><div class="row"><div class="col"><a class="service-listing beside" href="https://memorials.asancheztfh.com/todd-weaver/5482369/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/9a3c6634f8b26920a42af452de3fe696.jpg" onerror="handleImageLoadError(this)" alt="Todd Weaver"></div> 
+ <div class="service-listing-overlay"> <div class="service-listing-name">Todd Weaver</div> 
+ <div class="service-listing-date">September  1, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div></div><div class="row"><div class="col"><a class="service-listing beside" href="https://memorials.asancheztfh.com/juan-nieto/5478787/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/1d4e2d0ae26afff0e65bca357f4bd573.jpg" onerror="handleImageLoadError(this)" alt="Juan Nieto"></div> 
+ <div class="service-listing-overlay"> <div class="service-listing-name">Juan Nieto</div> 
+ <div class="service-listing-date">August 20, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div></div><div class="row"><div class="col"><a class="service-listing beside" href="https://memorials.asancheztfh.com/patricia-saddler/5472307/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/a198308de549f50f51e578f409d49529.jpg" onerror="handleImageLoadError(this)" alt="Patricia Saddler"></div> 
+ <div class="service-listing-overlay"> <div class="service-listing-name">Patricia Saddler</div> 
+ <div class="service-listing-date">August 13, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div></div></div> 
+ <div class="service-listing-pages row"> <div class="col prev disabled"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1792" id="1975627534" class="svg u_1975627534" data-icon-name="fa-caret-left" style="height: 40px; max-width:50px;"> <path fill="inherit" d="M640 448v896q0 26-19 45t-45 19-45-19l-448-448q-19-19-19-45t19-45l448-448q19-19 45-19t45 19 19 45z" id="1290598062"></path> 
+</svg> 
+ <span>Previous</span> 
+</div> 
+ <div class="col shrink links-outer-wrapper"> <div class="row links-wrapper"></div> 
+</div> 
+ <div class="col next"> <span>Next</span> 
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1792" id="1975627534" class="svg u_1975627534" data-icon-name="fa-caret-right" style="height: 40px; max-width:50px;"> <path fill="inherit" d="M576 896q0 26-19 45l-448 448q-19 19-45 19t-45-19-19-45v-896q0-26 19-45t45-19 45 19l448 448q19 19 19 45z" id="1418973664"></path> 
+</svg> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1244164153 widget-5e629b hide-for-small dmCustomWidget standard-mode" data-lazy-load="" data-title="" id="1244164153" dmle_extension="custom_extension" data-element-type="custom_extension" data-anim-desktop="fadeInUp" wr="false" icon="false" surround="false" data-widget-id="5e629b2e089e4c4ca53161a12724ae1b" data-widget-version="122" data-widget-config="eyJzZXJ2aWNlSW1nRGltZW5zaW9uT3ZlcnJpZGUiOm51bGwsImhpZGVDdXJyZW50RXZlbnRzIjpudWxsLCJzZXJ2aWNlRGF0ZSI6bnVsbCwidHlwZSI6ImFsbCIsInRpdGxlIjoiIiwiYW5pbWF0ZSI6ImNhc2NhZGUiLCJzZWFyY2hPbmx5IjpmYWxzZSwiaG92ZXIiOiJub25lIiwibGlua1RvIjoiaW5kZXgucGhwIiwic2VydmljZUltZ1NoYWRvdyI6dHJ1ZSwibGlua3MiOltdLCJpbmNsdWRlQWRkaXRpb25hbFNlcnZpY2VzRm9yU2VydmljZURhdGVTb3J0IjpudWxsLCJzZXJ2aWNlU2hhZG93IjpmYWxzZSwiY29scyI6IjUiLCJzZXJ2aWNlTG9jYXRpb24iOm51bGwsInNob3ctcGFnZXMiOnRydWUsInNob3ctc2VhcmNoIjp0cnVlLCJzdGFuYWxvbmVUZXh0IjoiSGF2aW5nIHRyb3VibGUgdmlld2luZyByZWNvcmRzPyBPcGVuIHJlY29yZHMgaW4gbmV3IHRhYi4iLCJhbHRlcm5hdGl2ZVVSTCI6bnVsbCwic29ydCI6ImRvZCIsInNlcnZpY2VOYW1lIjpmYWxzZSwicm93cyI6IjMiLCJ0cGwiOiJiZWxvdyIsInNob3ctYWR2YW5jZWQiOmZhbHNlLCJndWlkIjoiIiwiZ2V0U2VydmljZVR5cGUiOiJzaGl2YSIsImZvcmNlVG9DdXJyZW50IjpudWxsfQ==" style="opacity: 1; transform: translate3d(0%, 0%, 0px); visibility: visible !important; transition-delay: unset !important; transition-duration: unset !important; animation-delay: unset !important; animation-duration: unset !important; transition-property: none !important;" data-widget-initialized=""> <div class="mask" style="display: none;"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792" id="1732674747" class="svg u_1732674747" data-icon-name="fa-spinner" style="width: 5rem;"> <path fill="inherit" d="M526 1394q0 53-37.5 90.5t-90.5 37.5q-52 0-90-38t-38-90q0-53 37.5-90.5t90.5-37.5 90.5 37.5 37.5 90.5zM1024 1600q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zM320 896q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zM1522 1394q0 52-38 90t-90 38q-53 0-90.5-37.5t-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zM558 398q0 66-47 113t-113 47-113-47-47-113 47-113 113-47 113 47 47 113zM1728 896q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zM1088 192q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zM1618 398q0 93-66 158.5t-158 65.5q-93 0-158.5-65.5t-65.5-158.5q0-92 65.5-158t158.5-66q92 0 158 66t66 158z" id="1181242651"></path> 
+</svg> 
+</div> 
+ <div class="service-listing-con"> <div class="service-listing-header"> <form class="service-listing-search row"> <div class="col input-col"><input class="SearchTerm" name="SearchTerm" type="text" placeholder="Search Obituaries" data-placeholder-original="Search Obituaries"></div> 
+ <div class="col shrink"> <div class="dmWidget submit search-btn"> <span class="text">Search</span> 
+ <span class="iconBg"></span> 
+</div> 
+</div> 
+</form> 
+</div> 
+ <div class="service-listing-wrapper none below"> <a class="service-listing tile service-listing-tpl" href="#"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" onerror="handleImageLoadError(this)"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">{name}</div> 
+ <div class="service-listing-date">{date}</div> 
+ <div class="service-listing-branchname">{branchname}</div> 
+</div> 
+</div> 
+</a> 
+ <a class="service-listing modern service-listing-tpl" href="#"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" onerror="handleImageLoadError(this)"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-overlay-inner"> <div class="service-listing-name">{name}</div> 
+ <div class="service-listing-date">{date}</div> 
+ <div class="service-listing-branchname">{branchname}</div> 
+</div> 
+</div> 
+</div> 
+</a> 
+ <a class="service-listing below service-listing-tpl" href="#"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" onerror="handleImageLoadError(this)"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">{name}</div> 
+ <div class="service-listing-date">{date}</div> 
+ <div class="service-listing-branchname">{branchname}</div> 
+</div> 
+</div> 
+</a> 
+ <a class="service-listing beside service-listing-tpl" href="#"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" onerror="handleImageLoadError(this)"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">{name}</div> 
+ <div class="service-listing-date">{date}</div> 
+ <div class="service-listing-branchname">{branchname}</div> 
+</div> 
+</div> 
+</a> 
+ <a class="service-listing obit service-listing-tpl" href="#"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" onerror="handleImageLoadError(this)"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">{name}</div> 
+ <div class="service-listing-date">{date}</div> 
+ <div class="service-listing-obit">{obit}</div> 
+ <div class="service-listing-branchname">{branchname}</div> 
+</div> 
+</div> 
+</a> 
+<!-- Custom lay out templates--><!--SHIVA--> <a class="service-listing shiva service-listing-tpl" href="#"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" onerror="handleImageLoadError(this)"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name"></div> 
+ <div class="service-listing-label service-listing-service">Service:</div> 
+ <div class="service-listing-service-location"></div> 
+ <div class="service-listing-service-date service-listing-service-datetime"></div> 
+ <div class="service-listing-label service-listing-shiva">Shiva:</div> 
+ <div class="service-listing-shiva-address"></div> 
+</div> 
+</div> 
+</a> 
+<div class="row"><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/bonnie-ackerman/5493839/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/site_storage/light_a_candle/flowers/converted/center-150x185-ST_Wildflowers.png" onerror="handleImageLoadError(this)" alt="Bonnie Ackerman"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Bonnie Ackerman</div> 
+ <div class="service-listing-date">September 30, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/donald-green/5487293/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/site_storage/light_a_candle/flowers/converted/center-150x185-ST_WheatField.png" onerror="handleImageLoadError(this)" alt="Donald Green"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Donald Green</div> 
+ <div class="service-listing-date">September 10, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/jimmy-primera/5482933/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/87e05cbe2dba820311751ff8d0d07309.jpg" onerror="handleImageLoadError(this)" alt="Jimmy Primera"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Jimmy Primera</div> 
+ <div class="service-listing-date">September  5, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/todd-weaver/5482369/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/695b32a7a998519fcdb5b6bce72aa814.jpg" onerror="handleImageLoadError(this)" alt="Todd Weaver"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Todd Weaver</div> 
+ <div class="service-listing-date">September  1, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/juan-nieto/5478787/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/8edb1f7ced7023602a43c6f5c159b6d4.jpg" onerror="handleImageLoadError(this)" alt="Juan Nieto"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Juan Nieto</div> 
+ <div class="service-listing-date">August 20, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div></div><div class="row"><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/patricia-saddler/5472307/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/9bc70243211af875cbf9e36b37405169.jpg" onerror="handleImageLoadError(this)" alt="Patricia Saddler"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Patricia Saddler</div> 
+ <div class="service-listing-date">August 13, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/gary-parson/5467641/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/845459d26ba4105757573eabdec2265c.jpg" onerror="handleImageLoadError(this)" alt="Gary Parson"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Gary Parson</div> 
+ <div class="service-listing-date">August  1, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/evelyn-apodaca/5463455/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/2f760d63744e9867a57a0e2f514abad1.jpg" onerror="handleImageLoadError(this)" alt="Evelyn Apodaca"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Evelyn Apodaca</div> 
+ <div class="service-listing-date">July 23, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/meredith-blaylock/5462921/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/9a43a0343645d05204b5734d1c3eb3aa.jpg" onerror="handleImageLoadError(this)" alt="Meredith Blaylock"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Meredith Blaylock</div> 
+ <div class="service-listing-date">July 22, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/thomas-pride/5460475/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/e0578895f28496eaa530420b26ff97d4.jpg" onerror="handleImageLoadError(this)" alt="Thomas Pride"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Thomas Pride</div> 
+ <div class="service-listing-date">July 12, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div></div><div class="row"><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/leroy-smith/5456275/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/6a71204b55a3c6bff528d0d86122e1ac.jpg" onerror="handleImageLoadError(this)" alt="Leroy Smith "></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Leroy Smith </div> 
+ <div class="service-listing-date">July  4, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/karen-brown/5455383/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/f4661f19b860b17bea722aad149b5977.jpg" onerror="handleImageLoadError(this)" alt="Karen Brown"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Karen Brown</div> 
+ <div class="service-listing-date">July  2, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/quilla-beaty/5453621/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/c046e01d2af91be39eb59dbf4532d7a1.jpg" onerror="handleImageLoadError(this)" alt="Quilla Beaty"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Quilla Beaty</div> 
+ <div class="service-listing-date">June 30, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/jimmie-redics/5451822/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/edf931155874e193133259f46e155995.jpg" onerror="handleImageLoadError(this)" alt="Jimmie Redics"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Jimmie Redics</div> 
+ <div class="service-listing-date">June 24, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div><div class="col"><a class="service-listing below" href="https://memorials.asancheztfh.com/christopher--robles/5450447/index.php" style="opacity: 1;"> <div class="service-listing-inner"> <div class="service-listing-img service-listing-img-shadow"><img src="https://obituaries.frontrunnerpro.com/runtime/311039/include/storage/cache/bom/843459fcd57b738c107a222ed5bd78c6.jpg" onerror="handleImageLoadError(this)" alt="Christopher  Robles"></div> 
+ <div class="service-listing-overlay" style="height: 54px;"> <div class="service-listing-name">Christopher  Robles</div> 
+ <div class="service-listing-date">June 22, 2024</div> 
+ <div class="service-listing-branchname" style="display: none;">{branchname}</div> 
+</div> 
+</div> 
+</a></div></div></div> 
+ <div class="service-listing-pages row"> <div class="col prev disabled"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1792" id="1975627534" class="svg u_1975627534" data-icon-name="fa-caret-left" style="height: 40px; max-width:50px;"> <path fill="inherit" d="M640 448v896q0 26-19 45t-45 19-45-19l-448-448q-19-19-19-45t19-45l448-448q19-19 45-19t45 19 19 45z" id="1290598062"></path> 
+</svg> 
+ <span>Previous</span> 
+</div> 
+ <div class="col shrink links-outer-wrapper"> <div class="row links-wrapper"></div> 
+</div> 
+ <div class="col next"> <span>Next</span> 
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1792" id="1975627534" class="svg u_1975627534" data-icon-name="fa-caret-right" style="height: 40px; max-width:50px;"> <path fill="inherit" d="M576 896q0 26-19 45l-448 448q-19 19-45 19t-45-19-19-45v-896q0-26 19-45t45-19 45 19l448 448q19 19 19 45z" id="1418973664"></path> 
+</svg> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1337234388 widget-e03b65 dmCustomWidget" data-lazy-load="" data-title="" id="1337234388" dmle_extension="custom_extension" data-element-type="custom_extension" wr="false" icon="false" surround="false" data-widget-id="e03b65f823cc4a788f532c0e43a5dea3" data-widget-version="27" data-widget-config="eyJkaXNwbGF5IjoiYnV0dG9uIiwiZGlyZWN0aW9uIjoidXAiLCJhbGlnbiI6ImNlbnRlciIsInRleHQiOiJTdWJzY3JpYmUgdG8gT2JpdHVhcnkgTm90aWZpY2F0aW9ucyIsInZlcmJpYWdlIjoiRW50ZXIgeW91ciBlbWFpbCBiZWxvdyB0byBoYXZlIG91ciBmdW5lcmFsIHNlcnZpY2Ugbm90aWZpY2F0aW9ucyBkZWxpdmVyZWQgdG8geW91OiJ9" data-widget-initialized=""> <div class="notification-wrapper button"> <div class="dmWidget open-notification-popup"> <span class="text">Subscribe to Obituary Notifications</span> 
+ <span class="iconBg"></span> 
+</div> 
+ <div class="notification-popup up center"> <div class="notification-inner"> <div class="notification-verbiage">Enter your email below to have our funeral service notifications delivered to you:</div> 
+ <form class="notification-form"><input type="email" required="" class="ObitEmailAddress" name="ObitEmailAddress" placeholder="Email Address" data-placeholder-original="Email Address"> <div class="dmWidget notification-submit"> <span class="text">Subscribe</span> 
+ <span class="iconBg"></span> 
+</div> 
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792" id="1732674747" class="notification-spinner svg u_1732674747" data-icon-name="fa-spinner" style="height: 40px;"> <path fill="inherit" d="M526 1394q0 53-37.5 90.5t-90.5 37.5q-52 0-90-38t-38-90q0-53 37.5-90.5t90.5-37.5 90.5 37.5 37.5 90.5zM1024 1600q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zM320 896q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zM1522 1394q0 52-38 90t-90 38q-53 0-90.5-37.5t-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zM558 398q0 66-47 113t-113 47-113-47-47-113 47-113 113-47 113 47 47 113zM1728 896q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zM1088 192q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zM1618 398q0 93-66 158.5t-158 65.5q-93 0-158.5-65.5t-65.5-158.5q0-92 65.5-158t158.5-66q92 0 158 66t66 158z" id="1181242651"></path> 
+</svg> 
+</form> 
+ <div class="notification-success"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="14" class="dmFooterResp dmFullFooterResp" id="1602863267"> <div class="dmRespRow dmDividerRow" id="1314492676"> <div class="dmRespColsWrapper" id="1735367830"> <div class="large-12 medium-12 small-12 dmRespCol" id="1209666878"> <div class="dmDividerWrapper clearfix" id="1776315408" data-element-type="dDividerId"><hr class="dmDivider defaultDivider" id="1180913438"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1923996643" id="1923996643"> <div class="dmRespColsWrapper" id="1425067921"> <div class="u_1670797368 dmRespCol small-12 large-5 medium-5" id="1670797368"> <div class="default dmDefaultGradient align-center u_1575625144 inlineMap" data-type="inlineMap" data-lat="32.01388" data-lng="-102.06923" data-address="1502 N Lamesa Rd, Brunson, Midland, TX, United States" data-height="" data-msid="" data-mapurl="" data-lang="en" data-color-scheme="" data-zoom="13" data-layout="" data-popup-display="" data-popup-show="false" data-popup-title="" data-popup-title-visible="false" data-popup-description="" data-popup-description-visible="false" id="1575625144" dmle_extension="mapextension" data-element-type="mapextension" modedesktop="map" modemobile="button" addresstodisplay="1502 N Lamesa Rd, Brunson, Midland, TX, United States" geocompleteaddress="1502 N Lamesa Rd, Brunson, Midland, TX, United States" data-popup-display-desktop="" data-popup-display-mobile="" data-display-type="block" dmmapsource="dm" modetablet="map" wr="true" icon="true" surround="true" adwords="" icon-name="icon-map-marker" street="" city="" country="US" country_full="United States" state="" zip="" business="Avalos-Sanchez &amp; Thomas Funeral Home" provider="mapbox" lon="-102.06923" lat="32.01388" zoom="13"> <div class="mapContainer" style="height: 100%; width: 100%; overflow: hidden; z-index: 0;"></div> 
+</div> 
+ <div class="u_1347279043 dmNewParagraph footer-contact-container" data-element-type="paragraph" id="1347279043"> <span data-inject=":addressblock"> <div class="main-footer-address" itemscope="" itemtype="http://schema.org/LocalBusiness"> <div class="footer-phone" itemprop="telephone" data-inject=":phone">432-683-5577</div> 
+ <div class="footer-branch-name" itemprop="name" data-inject=":name">Avalos-Sanchez &amp; Thomas Funeral Home</div> 
+ <span class="footer-address-block" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"> <div class="footer-mailing-address" itemprop="streetAddress" data-inject=":address1">1502 North Lamesa Road</div> 
+ <div class="footer-mailing-address2" data-inject=":address2"></div> 
+ <div class="footer-city" itemprop="addressLocality"> <span class="footer-town" itemprop="addressLocality" data-inject=":city">Midland</span>, <span class="footer-province" itemprop="addressRegion" data-inject=":province">TX</span> 
+ <span class="footer-postal" itemprop="postalCode" data-inject=":postal">79701</span> 
+</div> 
+</span> 
+ <div class="footer-fax"> <span>Fax:</span> 
+ <span data-inject=":fax">432-683-5187</span> 
+</div> 
+ <div class="footer-email" itemprop="email"> <span>Email:</span> 
+ <span class="footer-email-text" data-inject=":email"> <a href="mailto:avalos-sancheztfh@suddenlink.net" target="_blank">avalos-sancheztfh@suddenlink.net</a> 
+</span> 
+</div> 
+</div> 
+</span> 
+</div></div> 
+ <div class="u_1092670706 dmRespCol empty-column small-12 large-2 medium-2 hide-for-small" id="1092670706"></div> 
+ <div class="u_1534730837 dmRespCol small-12 large-5 medium-5" id="1534730837"> <div class="default dmDefaultGradient align-center u_1550505966 inlineMap" data-type="inlineMap" data-lat="32.13248" data-lng="-101.79074" data-address="408 N Saint Peter St, Stanton, 79782, TX, United States" data-height="" data-msid="" data-mapurl="" data-lang="en" data-color-scheme="" data-zoom="13" data-layout="" data-popup-display="" data-popup-show="false" data-popup-title="" data-popup-title-visible="false" data-popup-description="" data-popup-description-visible="false" id="1550505966" dmle_extension="mapextension" data-element-type="mapextension" modedesktop="map" modemobile="button" addresstodisplay="408 N Saint Peter St, Stanton, 79782, TX, United States" geocompleteaddress="408 N Saint Peter St, Stanton, 79782, TX, United States" data-popup-display-desktop="" data-popup-display-mobile="" data-display-type="block" dmmapsource="dm" modetablet="map" wr="true" icon="true" surround="true" adwords="" icon-name="icon-map-marker" street="" city="" country="US" country_full="United States" state="" zip="" business="Avalos-Sanchez &amp; Thomas Funeral Home" provider="mapbox" lon="-101.79074" lat="32.13248" zoom="13"> <div class="mapContainer" style="height: 100%; width: 100%; overflow: hidden; z-index: 0;"></div> 
+</div> 
+ <div class="u_1382587015 dmNewParagraph footer-contact-container" data-element-type="paragraph" id="1382587015"> <div class="main-footer-address" itemscope="" itemtype="http://schema.org/LocalBusiness"> <div class="footer-phone" itemprop="telephone" data-inject=":phone">432-756-3708</div> 
+ <div class="footer-branch-name" itemprop="name" data-inject=":name">Stanton Memorial Funeral Home &amp; Chapel</div> 
+ <div class="footer-branch-name" itemprop="name" data-inject=":name">408 N. Saint Peter St.</div> 
+ <div class="footer-branch-name" itemprop="name" data-inject=":name">Stanton, Texas 79782</div> 
+</div> 
+</div> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="http://www.stantonfh.com" data-element-type="dButtonLinkId" id="1350584554" target="_blank"> <span class="iconBg" id="1773866337"> <span class="icon hasFontIcon icon-star" id="1341477647"></span> 
+</span> 
+ <span class="text" id="1487033249">Click Here to Visit this Location</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1778162332 dmRespRow" style="text-align: center;" id="1778162332"> <div class="dmRespColsWrapper" id="1215190690"> <div class="dmRespCol small-12 medium-12 large-12 u_1732202404" id="1732202404"> <div class="u_1282293391 dmNewParagraph footer-admin" data-element-type="paragraph" id="1282293391" style="transition: opacity 1s ease-in-out 0s;"><div style=""> <span style=""> <span style="" class="lh-1"> <span data-inject=":adminlink" style=""> <a href="https://astfh.frontrunnerpro.com/runtime/341238/ims/" target="_blank">Admin</a> 
+</span><a href="https://obittree.com" runtime_url="https://obittree.com" target="_blank" style="">Obittree</a><span style="font-family:'Open Sans', 'Open Sans Fallback';">|</span><a href="/privacy-policy" runtime_url="/privacy-policy" style="">Privacy Policy</a><span style="font-family:'Open Sans', 'Open Sans Fallback';">|</span><a href="/terms-of-use" runtime_url="/terms-of-use" style="">Terms of Use</a>|<a href="http://www.asancheztfh.com/sitemap.xml" runtime_url="http://www.asancheztfh.com/sitemap.xml" target="_blank">Sitemap</a>| <a href="http://memorials.asancheztfh.com/sitemap.php" runtime_url="http://memorials.asancheztfh.com/sitemap.php" target="_blank">Obituary Directory</a> 
+|<a href="http://www.frontrunner360.com" runtime_url="http://www.frontrunner360.com" target="_blank" style="">Powered by FrontRunner Professional</a></span></span></div></div></div> 
+</div> 
+</div> 
+ <div id="1482260810" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH"
+    window.isSitePreview = false;
+</script>
+<script>
+    window.customWidgetsFunctions["5e629b2e089e4c4ca53161a12724ae1b~122"] = function (element, data, api) {
+        "use strict";
+
+//$(element).height('720px');
+
+//compatibility functions 
+function _instanceof(left, right) { if (right != null && typeof Symbol !== "undefined" && right[Symbol.hasInstance]) { return right[Symbol.hasInstance](left); } else { return left instanceof right; } }
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+var myInterval = null;
+var myInterval2 = null;
+
+if(iOS()){
+    console.log('set iOS height');
+    $(element).height('250px'); // GD-removed 2019-09-05
+}
+
+/*! modernizr 3.6.0 (Custom Build) | MIT *
+* https://modernizr.com/download/?-flexbox-flexboxlegacy-flexboxtweener-objectfit-setclasses !*/
+!function(i,d,c){function m(e,n){return _typeof(e)===n}function v(e){return e.replace(/([a-z])-([a-z])/g,function(e,n,t){return n+t.toUpperCase()}).replace(/^-/,"")}function y(){return"function"!=typeof d.createElement?d.createElement(arguments[0]):x?d.createElementNS.call(d,"http://www.w3.org/2000/svg",arguments[0]):d.createElement.apply(d,arguments)}function l(e,n){return function(){return e.apply(n,arguments)}}function o(e){return e.replace(/([A-Z])/g,function(e,n){return"-"+n.toLowerCase()}).replace(/^ms-/,"-ms-")}function s(e,n,t,r){var o,s,i,l,a,f="modernizr",u=y("div"),p=((a=d.body)||((a=y(x?"svg":"body")).fake=!0),a);if(parseInt(t,10))for(;t--;)(i=y("div")).id=r?r[t]:f+(t+1),u.appendChild(i);return(o=y("style")).type="text/css",o.id="s"+f,(p.fake?p:u).appendChild(o),p.appendChild(u),o.styleSheet?o.styleSheet.cssText=e:o.appendChild(d.createTextNode(e)),u.id=f,p.fake&&(p.style.background="",p.style.overflow="hidden",l=g.style.overflow,g.style.overflow="hidden",g.appendChild(p)),s=n(u,e),p.fake?(p.parentNode.removeChild(p),g.style.overflow=l,g.offsetHeight):u.parentNode.removeChild(u),!!s}function h(e,n){var t=e.length;if("CSS"in i&&"supports"in i.CSS){for(;t--;)if(i.CSS.supports(o(e[t]),n))return!0;return!1}if("CSSSupportsRule"in i){for(var r=[];t--;)r.push("("+o(e[t])+":"+n+")");return s("@supports ("+(r=r.join(" or "))+") { #modernizr { position: absolute; } }",function(e){return"absolute"==function(e,n,t){var r;if("getComputedStyle"in i){r=getComputedStyle.call(i,e,n);var o=i.console;null!==r?t&&(r=r.getPropertyValue(t)):o&&o[o.error?"error":"log"].call(o,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}else r=!n&&e.currentStyle&&e.currentStyle[t];return r}(e,null,"position")})}return c}function r(e,n,t,r,o){var s=e.charAt(0).toUpperCase()+e.slice(1),i=(e+" "+p.join(s+" ")+s).split(" ");return m(n,"string")||m(n,"undefined")?function(e,n,t,r){function o(){i&&(delete b.style,delete b.modElem)}if(r=!m(r,"undefined")&&r,!m(t,"undefined")){var s=h(e,t);if(!m(s,"undefined"))return s}for(var i,l,a,f,u,p=["modernizr","tspan","samp"];!b.style&&p.length;)i=!0,b.modElem=y(p.shift()),b.style=b.modElem.style;for(a=e.length,l=0;l<a;l++)if(f=e[l],u=b.style[f],!!~(""+f).indexOf("-")&&(f=v(f)),b.style[f]!==c){if(r||m(t,"undefined"))return o(),"pfx"!=n||f;try{b.style[f]=t}catch(e){}if(b.style[f]!=u)return o(),"pfx"!=n||f}return o(),!1}(i,n,r,o):function(e,n,t){var r;for(var o in e)if(e[o]in n)return!1===t?e[o]:m(r=n[e[o]],"function")?l(r,t||n):r;return!1}(i=(e+" "+w.join(s+" ")+s).split(" "),n,t)}function e(e,n,t){return r(e,c,c,n,t)}var a=[],f=[],n={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var t=this;setTimeout(function(){n(t[e])},0)},addTest:function(e,n,t){f.push({name:e,fn:n,options:t})},addAsyncTest:function(e){f.push({name:null,fn:e})}},u=function(){};u.prototype=n,u=new u;var g=d.documentElement,x="svg"===g.nodeName.toLowerCase(),t="Moz O ms Webkit",p=n._config.usePrefixes?t.split(" "):[];n._cssomPrefixes=p;var C=function(e){var n,t=prefixes.length,r=i.CSSRule;if(void 0===r)return c;if(!e)return!1;if((n=(e=e.replace(/^@/,"")).replace(/-/g,"_").toUpperCase()+"_RULE")in r)return"@"+e;for(var o=0;o<t;o++){var s=prefixes[o];if(s.toUpperCase()+"_"+n in r)return"@-"+s.toLowerCase()+"-"+e}return!1};n.atRule=C;var w=n._config.usePrefixes?t.toLowerCase().split(" "):[];n._domPrefixes=w;var S={elem:y("modernizr")};u._q.push(function(){delete S.elem});var b={style:S.elem.style};u._q.unshift(function(){delete b.style}),n.testAllProps=r,n.testAllProps=e,u.addTest("flexbox",e("flexBasis","1px",!0)),u.addTest("flexboxlegacy",e("boxDirection","reverse",!0)),u.addTest("flexboxtweener",e("flexAlign","end",!0));var _=n.prefixed=function(e,n,t){return 0===e.indexOf("@")?C(e):(-1!=e.indexOf("-")&&(e=v(e)),n?r(e,n,t):r(e,"pfx"))};u.addTest("objectfit",!!_("objectFit"),{aliases:["object-fit"]}),function(){var e,n,t,r,o,s;for(var i in f)if(f.hasOwnProperty(i)){if(e=[],(n=f[i]).name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(t=0;t<n.options.aliases.length;t++)e.push(n.options.aliases[t].toLowerCase());for(r=m(n.fn,"function")?n.fn():n.fn,o=0;o<e.length;o++)1===(s=e[o].split(".")).length?u[s[0]]=r:(!u[s[0]]||_instanceof(u[s[0]],Boolean)||(u[s[0]]=new Boolean(u[s[0]])),u[s[0]][s[1]]=r),a.push((r?"":"no-")+s.join("-"))}}(),function(e){var n=g.className,t=u._config.classPrefix||"";if(x&&(n=n.baseVal),u._config.enableJSClass){var r=new RegExp("(^|\\s)"+t+"no-js(\\s|$)");n=n.replace(r,"$1"+t+"js$2")}u._config.enableClasses&&(n+=" "+t+e.join(" "+t),x?g.className.baseVal=n:g.className=n)}(a),delete n.addTest,delete n.addAsyncTest;for(var P=0;P<u._q.length;P++)u._q[P]();i.ModernizrFRP=u}(window,document);
+
+
+function getRecs(page) {
+    
+  $(element).find('.mask').fadeIn();
+  var w = $(element).data('w');
+  var h = $(element).data('h');
+  var len = data.config.rows * data.config.cols;
+  var searchTerm = $(element).find('.service-listing-search .SearchTerm').val();
+  var dateFrom = $(element).find('.service-listing-advanced .DateFrom').val();
+  var dateTo = $(element).find('.service-listing-advanced .DateTo').val();
+  var sort = $(element).find('.service-listing-advanced .Sort').val();
+  var args = {
+    pageNum: page,
+    rpp: len,
+    width: w,
+    height: h,
+    type: data.config.type,
+    template:data.config.tpl,
+    getServiceType:data.config.getServiceType,
+    sort: data.config.sort,
+    forceToCurrent: data.config.forceToCurrent,
+    hideCurrentEvents: data.config.hideCurrentEvents,
+    includeAdditionalServices: data.config.includeAdditionalServicesForServiceDateSort,
+    query: {}
+  };
+
+  if (data.config.guid) {
+    args.guid = data.config.guid;
+  } else {
+    args.guid = dmAPI.getSiteExternalId();
+    args.wholeSite = true;
+  }
+
+  if (sort) {
+    args.sort = sort;
+  }
+
+  if (searchTerm) {
+    args.query.SearchTerm = searchTerm;
+  }
+
+  if (dateFrom) {
+    args.query.DateFrom = dateFrom;
+  }
+
+  if (dateTo) {
+    args.query.DateTo = dateTo;
+  }
+
+  if ((dateFrom || dateTo || searchTerm) && data.config.type == 'current') {
+    args.type = 'all';
+  }
+    
+  $.ajax({
+    type: 'POST',
+    // url: 'https://obituaries.frontrunnerpro.com/runtime/311039/ims/WF2/public/get-records.php',
+    //url: 'https://obituaries.frontrunnerpro.com/runtime/311039/ims/WF2/public/get-records-additional.php?clearcache=1',
+    url: 'https://obituaries.frontrunnerpro.com/runtime/311039/ims/WF2/public/get-records-additional.php',
+    data: args,
+    crossDomain: true,
+    dataType: 'json'
+  }).success(function (ret) {
+    $(element).find('.service-listing-empty').remove();
+
+    if (!ret.success || !ret.data || ret.data.length == 0) {
+      $(element).find('.service-listing-wrapper').append('<div class="service-listing-empty" style="text-align: center">No services found.</div>');
+    }
+
+    $(element).data('page', ret.pageNum);
+    $(element).data('maxPages', ret.maxPages);
+    $(element).find('.service-listing-pages').find('.next, .prev').removeClass('disabled');
+
+    if (ret.pageNum == 1) {
+      $(element).find('.service-listing-pages .prev').addClass('disabled');
+    }
+
+    if (ret.pageNum >= ret.maxPages) {
+      $(element).find('.service-listing-pages .next').addClass('disabled');
+    }
+
+    $(element).find('.service-listing-wrapper .row').remove();
+
+    for (var i = 0; i < data.config.rows; i++) {
+      var row = $('<div class="row"></div>');
+      $(element).find('.service-listing-wrapper').append(row);
+
+      for (var j = 0; j < data.config.cols; j++) {
+        if (!ret.data.length) {
+          row.append($('<div class="col"></div>'));
+          continue;
+        }
+
+        var record = ret.data.shift();
+        
+        if (data.config.tpl != 'custom-layout'){
+            var tpl = $(element).find('.service-listing-tpl.' + data.config.tpl).clone().removeClass('service-listing-tpl').css({
+                opacity: 0
+            });
+            tpl.attr('href', record.url + data.config.linkTo);
+            tpl.find('.service-listing-name').text(record.name);
+            tpl.find('.service-listing-date').text(record.dod);
+    
+            if (record.forcedToCurrent == 1) {
+              tpl.addClass('forced-to-current');
+            }
+    
+            if (record.branchname) {
+              tpl.find('.service-listing-branchname').text(record.branchname);
+            } else {
+              tpl.find('.service-listing-branchname').hide();
+            }
+    
+            if (record.obit) {
+              tpl.find('.service-listing-obit').text(record.obit);
+            } else {
+              tpl.find('.service-listing-obit').hide();
+            }
+
+            //tpl.find('.service-listing-img img').attr('src', 'https://obituaries.frontrunnerpro.com/runtime/311039' + record.photo).attr('alt', record.name);
+            tpl.find('.service-listing-img img').attr('src', record.photo1).attr('alt', record.name);
+            row.append($('<div class="col"></div>').append(tpl));    
+        }else {
+            
+            if (data.config.getServiceType == 'shiva'){ //shiva specific template 
+            
+                var tpl = $(element).find('.service-listing-tpl.' + data.config.getServiceType).clone().removeClass('service-listing-tpl').css({
+                    opacity: 0
+                });
+                tpl.attr('href', record.url + data.config.linkTo);
+                
+                 //Need these for Shiva
+                tpl.find('.service-listing-name').text(record.name);
+                
+                if(record.serviceDate || record.serviceLocation || record.serviceTime){
+                    //tpl.find('.service-listing-service-date').text(record.serviceDate);
+                    //tpl.find('.service-listing-service-time').text(record.serviceTime);
+                
+                    tpl.find('.service-listing-service-location').text(record.serviceLocation);
+                    
+                    let datetime = record.serviceDate;
+                    if(record.serviceTime){
+                        datetime += " - " + record.serviceTime;
+                    }
+            
+                    tpl.find('.service-listing-service-datetime').text(datetime);
+                }else{
+                    tpl.find('.service-listing-service').hide();
+                }
+                
+                if(record.shivaAddress){
+                    tpl.find('.service-listing-shiva-address').html(record.shivaAddress);
+                }else{
+                    tpl.find('.service-listing-shiva').hide();
+                }
+                
+                row.append($('<div class="col"></div>').append(tpl));       
+            }
+            
+            
+        }
+        
+      }
+    }
+
+    if (data.config.animate == 'cascade') {
+      $(element).find('.service-listing').not('.service-listing-tpl').each(function (i) {
+        $(this).delay(i * 200).animate({
+          opacity: 1
+        });
+      });
+    } else if (data.config.animate == 'row') {
+      $(element).find('.service-listing-wrapper .row').each(function (i) {
+        $(this).find('.service-listing').delay(i * 200).animate({
+          opacity: 1
+        });
+      });
+    } else if (data.config.animate == 'once') {
+      $(element).find('.service-listing').not('.service-listing-tpl').animate({
+        opacity: 1
+      });
+    } else {
+      $(element).find('.service-listing').not('.service-listing-tpl').css({
+        opacity: 1
+      });
+    }
+
+    var serviceName = data.config.serviceName;
+    var serviceDate = data.config.serviceDate;
+    var serviceLocation = data.config.serviceLocation;
+    var serviceShadow = data.config.serviceShadow;
+    var serviceImgShadow = data.config.serviceImgShadow;
+    var serviceImgDimensionOverride = data.config.serviceImgDimensionOverride;
+
+    if (serviceName) {
+      $(element).find(".service-listing-name").each(function (index) {
+        $(this).addClass('hidden-field');
+      });
+    }
+
+    if (serviceDate) {
+      $(element).find(".service-listing-date").each(function (index) {
+        $(this).addClass('hidden-field');
+      });
+    }
+
+    if (serviceLocation) {
+      $(element).find(".service-listing-branchname").each(function (index) {
+        $(this).addClass('hidden-field');
+      });
+    }
+
+    if (serviceShadow) {
+      $(element).find(".service-listing-inner").each(function (index) {
+        $(this).addClass('service-shadow');
+      });
+    }
+    
+    if (serviceImgShadow) {
+      $(element).find(".service-listing-img").each(function (index) {
+        $(this).addClass('service-listing-img-shadow');
+      });
+    }
+    
+    if (serviceImgDimensionOverride) {
+      $(element).find(".service-listing-img").each(function (index) {
+        $(this).addClass('service-listing-img-dimension-override');
+        $('.service-listing-inner').addClass('service-listing-inner-override');
+      });
+    }
+
+    $(element).find('.service-listing').promise().done(function () {
+      $(element).find('.mask').fadeOut();
+    });
+
+
+    if (detectIE()) {
+        
+      myInterval = setInterval(function () {
+        if (getLargestListingOverlay() > 30) {
+          clearInterval(myInterval);
+          equalizeMyStuff();
+        }
+      }, 100);
+    } else {
+    
+    
+     if (detectSafari()){
+       var interavalLoopCount = 0;
+        myInterval2 = setInterval(function () {
+       if (checkImagesAreProperSize() > 100) {
+            clearInterval(myInterval2);
+            equalizeMyStuff();     
+       }else if(interavalLoopCount > 25){
+            var newHeight = $(element).height() / data.config.rows;
+            newHeight = newHeight *= 0.8;
+            setInnerImageContainerHeight(newHeight);  
+       }
+       else {
+           interavalLoopCount ++;
+       }
+      }, 100);
+      
+         
+     }else {
+      clearInterval(myInterval);
+      clearInterval(myInterval2);
+      equalizeMyStuff();        
+     }
+   
+    }
+  });
+}
+
+//To fix stupid safari versions
+function setInnerImageContainerHeight(newHeight){
+    $(element).find(".service-listing-inner").each(function (index, el) {
+      
+    $(el).css('height',newHeight);
+
+  });
+    
+}
+function checkImagesAreProperSize(){
+
+  var innerLargestHeight = 0;
+  $(element).find(".service-listing-inner").each(function (index, el) {
+      
+    var innerHeight = $(el).css('height');
+    innerHeight = parseInt(innerHeight.substr(0, innerHeight.length - 2)); //remove 'px' from height
+
+    if (innerHeight > innerLargestHeight) {
+      innerLargestHeight = innerHeight;
+    }
+  });
+  return innerLargestHeight;
+}
+
+function getLargestListingOverlay() {
+  var largestHeight = 0;
+  $(element).find(".service-listing-overlay").each(function (index, el) {
+    var height = $(el).css('height');
+    height = parseInt(height.substr(0, height.length - 2)); //remove 'px' from height
+
+    if (height > largestHeight) {
+      largestHeight = height;
+    }
+  });
+  return largestHeight;
+}
+
+function equalizeMyStuff() {
+  //Dont need to equalize on modern templates
+  if (data.config.tpl != 'modern' && data.config.tpl != 'obit' && data.config.tpl != 'beside' && data.config.tpl != 'extra-details') {
+    //reset heights
+    $(element).find(".service-listing-overlay").not('.service-listing-tpl').each(function (index) {
+      $(this).css('height', 'initial');
+    });
+    var maxHeight = getLargestListingOverlay();
+    $(element).find(".service-listing-overlay").not('.service-listing-tpl').each(function (index) {
+      $(this).css('height', maxHeight);
+    });
+  }
+  /* modernizer function */
+
+
+  doModernizr(); //compatibility stuff
+}
+
+function doModernizr() {
+  if (!ModernizrFRP.objectfit) {
+    $(element).find('.service-listing-img').not('.service-listing-tpl').each(function () {
+      var $container = $(this),
+          imgUrl = $container.find('img').prop('src');
+
+      if (imgUrl) {
+        $container.css('backgroundImage', 'url(' + imgUrl + ')').addClass('compat-object-fit');
+      }
+    });
+  }
+}
+
+function iOS() {
+  var iDevices = ['iPad Simulator', 'iPhone Simulator', 'iPod Simulator', 'iPad', 'iPhone', 'iPod'];
+
+  if (!!navigator.platform) {
+      
+      console.log(navigator.platform);
+      
+    while (iDevices.length) {
+      if (navigator.platform === iDevices.pop()) {
+        return true;
+      }
+    }
+  }
+
+  return false;
+} //Check if already drawn
+
+
+var drawn = $(element).data('drawn');
+
+if (typeof drawn == "undefined") {
+  handleFallback();
+  pollForHeight();
+}
+
+function handleFallback() {
+    if (detectFallback()) {
+        $(element).addClass('fallback-mode');
+        if (data.config.tpl == 'beside') {
+            data.config.cols = 1;
+        } else {
+            data.config.cols = 5;
+            data.config.tpl = 'below';
+        }
+    } else {
+        $(element).addClass('standard-mode');
+    }
+}
+function detectFallback() {
+    // uncomment the return false below if you need to republish and this will disable fallback mode.
+    //return false;
+    var iosVer = iOSversion();
+    if(iosVer && Number(iosVer[0]) < Number(10)) {
+        return true;
+    }
+    return false;    
+}
+
+	function iOSversion() {
+	    // from https://codepen.io/niggi/pen/DtIfy
+		if (/iP(hone|od|ad)/.test(navigator.platform)) {
+			// supports iOS 2.0 and later: <https://bit.ly/TJjs1V>
+			var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+			return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
+		}
+	}
+
+
+function pollForHeight() {
+  if ($(element).height() != 100) {
+    establishServiceListingImageSize();
+  } else {
+    setTimeout(pollForHeight, 100);
+  }
+}
+
+function establishServiceListingImageSize() {
+  ///Create rows and call getRecs
+  $(element).data('drawn', true);
+
+  if (data.inEditor) {
+    $(element).find('.links-wrapper').css('justify-content', 'center');
+  }
+
+  for (var i = 0; i < data.config.rows; i++) {
+    var tmp = $('<div class="row compute-wrapper"></div>');
+
+    for (var j = 0; j < data.config.cols; j++) {
+      tmp.append($('<div class="col"></div>').append($(element).find('.service-listing-tpl.' + data.config.tpl).clone().removeClass('service-listing-tpl')));
+    }
+
+    tmp.appendTo($(element).find('.service-listing-wrapper'));
+  }
+
+  var w = 1.05 * $(element).find('.compute-wrapper .service-listing-img').width();
+  var h = 1.05 * $(element).find('.compute-wrapper .service-listing-img').height();
+
+  if (h < 30) {
+    h = w;
+  }
+
+  $(element).data('w', w);
+  $(element).data('h', h);
+
+  if (!data.config.searchOnly) {
+    if ( checkAutoSearch() == false){
+        getRecs(1);      
+    } 
+  } else {
+    $(element).find('.mask').fadeOut();
+  }
+}
+
+$(element).find('.service-listing-search .submit').click(function (e) {
+  $(element).find('.service-listing-search').submit();
+});
+$(element).find('.service-listing-advanced .Sort').change(function (e) {
+  $(element).find('.service-listing-search').submit();
+});
+$(element).find('.service-listing-advanced').submit(function (e) {
+  e.preventDefault();
+  $(element).find('.service-listing-search').submit();
+});
+$(element).find('.service-listing-search').submit(function (e) {
+  e.preventDefault();
+  getRecs(1);
+});
+
+$(element).find('.service-listing-con').on("click", ".service-listing", function (e) {
+    console.log("cancel pointer events");
+    $(document).find('.service-listing-con').css("pointer-events", "none");
+    $(document).find('.service-listing').css('cursor', 'default').attr('disabled',true);
+});
+
+$(element).find('.service-listing-pages .next').click(function () {
+  var page = parseInt($(element).data('page'));
+  var max = parseInt($(element).data('maxPages'));
+
+  if (page == max) {
+    return false;
+  }
+
+  getRecs(page + 1); //   equalizeMyStuff();
+});
+$(element).find('.service-listing-pages .prev').click(function () {
+  var page = parseInt($(element).data('page'));
+
+  if (page == 1) {
+    return false;
+  }
+
+  getRecs(page - 1); //   equalizeMyStuff();
+});
+
+function detectIE() {
+  var ua = window.navigator.userAgent;
+  var msie = ua.indexOf('MSIE ');
+
+  if (msie > 0) {
+    // IE 10 or older => return version number
+    return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+  }
+
+  var trident = ua.indexOf('Trident/');
+
+  if (trident > 0) {
+    // IE 11 => return version number
+    var rv = ua.indexOf('rv:');
+    return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+  }
+
+  var edge = ua.indexOf('Edge/');
+
+  if (edge > 0) {
+    // Edge (IE 12+) => return version number
+    return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+  } // other browser
+
+
+  return false;
+}
+
+function detectSafari() {
+  return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+}
+
+
+//AUTO SEARCH FUNCTIONALITY
+function checkAutoSearch(){
+
+   var autoSearchName = urlParam('serviceListingAutoSearch');   
+  
+   if (autoSearchName){
+       autoSearchName = decodeURIComponent(autoSearchName);
+       setTimeout(function(){
+           $(element).find('.service-listing-search .SearchTerm').val(autoSearchName);
+           
+           var btn = $(element).find('.search-btn');
+           $(btn).trigger('click');
+       },500)
+        return true;
+   }else {
+       return false;
+   }
+}
+
+ 
+function urlParam(name) {
+    var results = new RegExp('[\?&]' + name + '=([^&#]*)')
+                      .exec(window.location.search);
+    return (results !== null) ? results[1] || 0 : false;
+}
+
+window.onpageshow = function(event) {
+    if (event.persisted) {
+        window.location.reload();
+    }
+};
+
+
+
+
+
+    };
+</script>
+<script>
+    window.customWidgetsFunctions["e03b65f823cc4a788f532c0e43a5dea3~27"] = function (element, data, api) {
+        
+
+$(element).find('.open-notification-popup').off('click');
+$(element).find('.open-notification-popup').click(function(e){
+    $(element).find('.notification-popup').slideToggle();
+});
+$(element).find('.notification-submit').off('click');
+$(element).find('.notification-submit').click(function(e){
+    $(element).find('.notification-form').submit();
+});
+$(element).find('.notification-form').off('submit');
+$(element).find('.notification-form').submit(function(e){
+    e.preventDefault();
+    
+    if ($(element).find('.notification-submit').hasClass('disabled')){
+        return false;
+    }
+    
+    var email = $(element).find('.ObitEmailAddress');
+
+    $(element).find('.notification-success').slideUp(function(){
+        if (!email.val() || !email[0].checkValidity()){
+            $(element).find('.notification-success').text("Please enter a valid email address.");
+            $(element).find('.notification-success').slideDown();
+            return false;
+        }
+        
+        $(element).find('.notification-submit').addClass('disabled');
+        $(element).find('.notification-spinner').fadeIn(function(){
+            var args = {
+                guid: data.config.guid || dmAPI.getSiteExternalId(),
+                ObitEmailAddress: email.val()
+            };
+            
+            $.ajax({
+                type: 'POST',
+                url: 'https://obittree.frontrunnerpro.com/runtime/311039/include/websitewidgets/actions/submitObitEmail.php',
+                data: args,
+                dataType: 'json',
+            }).success(function(ret){
+                if (ret.status){
+                    $(element).find('.notification-success').text("Thank you for subscribing.");
+                }else{
+                    $(element).find('.notification-success').text(ret.msg);
+                }
+                
+                $(element).find('.notification-success').delay(200).slideDown(); 
+            }).always(function(){
+                $(element).find('.notification-spinner').fadeOut();
+                $(element).find('.notification-submit').removeClass('disabled');
+            });        
+        });
+    });
+});
+    };
+</script>
+<script type="text/javascript">
+
+    var d_version = "production_4801";
+    var build = "2024-10-03T18_52_15";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2024-10-03T18_52_15";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+</script>
+
+<!-- Load jQuery -->
+<script type="text/javascript" id="d-js-jquery" src="https://static.cdn-website.com/libs/jquery/jquery-3.7.0.min.js"></script>
+<!-- End Load jQuery -->
+<!-- Injecting site-wide before scripts -->
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+    window.jQuery.migrateMute = true;
+</script>
+<script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+
+<!-- HEAD RT JS Include -->
+<script id="d-js-params">
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.multiscreensite.com';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"] =true;
+    rtCommonProps["common.build.dist.folder"] = 'production/4801';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static.cdn-website.com';
+    rtCommonProps["common.resources.folder"] = 'https://static.cdn-website.com/mnlt/production/4801';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.respectCssAnimationProps.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["isAutomation.test"] =false;
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'mapbox';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://lirp.cdn-website.com/';
+    rtCommonProps["facebook.api.version"] = '7.0';
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.performance.logs"] =true;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["cookiebot.mapbox.consent.category"] = 'marketing';
+    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"] =false;
+
+    // feature flags that's used out of runtime module (in  legacy files)
+    rtCommonProps["site.runtime.video.background.ssr"] =true;
+
+    window.rtFlags = {};
+    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =true;
+    rtFlags["scripts.widgetCount.enabled"] =true;
+    rtFlags["ecom.monolith.signup.widget.js.creds.via.body"] = true;
+    rtFlags["ecom.ecwid.categoryPage.modifyLinks"] = true;
+    rtFlags["ecom.ecwid.delegateNavigationToEcwid.enabled"] = false;
+    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtFlags["ecom.ecwid.old.store.fix.scrolling.enabled"] = true;
+    rtFlags["ecom.ecwid.old.store.fix.facebook.share"] = true;
+    rtFlags["ecom.ecwid.fallBackInCaseLinksNotFound.enabled"] = true;
+    rtFlags["feature.flag.photo.gallery.exact.size"] =true;
+    rtFlags["new.store.fix.ecwid.back.bug"] =true;
+    rtFlags["facebook.runtime.widgets.upgrade"] =true;
+    rtFlags["ecom.ecwid.solve.url.modifications"] = true;
+    rtFlags["ecom.ecwid.configOptions"] = true;
+    rtFlags["geocode.search.localize"] =false;
+    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtFlags["site.contact.form.fix.for.attribute"] =true;
+    rtFlags["contact.form.date.format.enabled"] = true;
+    rtFlags["twitter.heightLimit.enabled"] = true;
+    rtFlags["ecom.ecwid.fixTranslations.enabled"] = true;
+    rtFlags["runtime.load.script.native"] =true;
+    rtFlags["editor.classicHybrid.photogallery.fix"] =true;
+    rtFlags["runtime.lottieOverflow"] =false;
+    rtFlags["runtime.monitoring.sentry.ignoreErrors"] = "";
+    rtFlags["ecom.ecwid.old.store.fix.scrolling.detect.enable"] =true;
+    rtFlags["contact.form.browserValidation.enabled"] =true;
+</script>
+<script src="https://static.cdn-website.com/mnlt/production/4801/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js" id="d-js-core"></script>
+<!-- End of HEAD RT JS Include -->
+<script src="https://static.cdn-website.com/mnlt/production/4801/_dm/s/rt/dist/scripts/d-js-jquery-migrate.min.js"></script>
+<script>
+    
+    $(window).bind("orientationchange", function (e) {
+        $.layoutManager.initLayout();
+        
+    });
+    $(document).resize(function () {
+        
+    });
+</script>
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript">
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: 'f92bae43'
+});
+
+// snowplow queries element styles so we wait until CSS calculations are done.
+requestAnimationFrame(() => {
+	dmsnowplow('trackPageView');
+	_dm_insite.forEach((rule) => {
+		// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+		// the tracking is in popup.js
+		if (rule.actionName !== "popup") {
+			dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+		}
+		window?.waitForDeferred?.('dmAjax', () => {
+			$.DM.events.trigger('event-ruleTriggered', {value: rule});
+		});
+	});
+});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root" data-locale="en"></div>
+<!-- Alias: f92bae43 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+	window?.waitForDeferred?.('dmAjax', () => {
+		// Collects client data and updates cookies used by smart sites
+		window.expireDays = 365;
+		window.visitLength = 30 * 60000;
+		$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), window.expireDays);
+			setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+	});
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<!--  End Script tags -->
+
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+
+
+</body></html>
